@@ -26,7 +26,7 @@ if Select_menu == "1":
 
   celsius = float(input("Enter temperature in cesius: "))
   fahrenheit=( celsius * 9/5 )+32
-  print(f"{celsius}°C is equal to {fahrenheit:2f}°F")
+  print(f"{celsius}°C is equal to {fahrenheit}°F")
 
   #convert fahrenheit to celsius
 
@@ -35,7 +35,7 @@ elif Select_menu =="2":
  # Ask the fahrenheit to celsius
  fahrenheit = float(input("Enter tmperature in fahrenheit:"))
  celsius = (fahrenheit - 32) * 5/9
- print(f"{fahrenheit} °F is equal to {celsius:2f}°C.")
+ print(f"{fahrenheit} °F is equal to {celsius}°C.")
 
 #show invalid result
 else:
